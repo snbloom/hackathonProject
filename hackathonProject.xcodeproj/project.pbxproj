@@ -23,6 +23,7 @@
 		E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */; };
 		E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */; };
 		E1EC167020FFF50000B84A40 /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EC166F20FFF50000B84A40 /* Draft.storyboard */; };
+		E1EC16762100F9C700B84A40 /* DraftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTableViewController.swift; sourceTree = "<group>"; };
 		E1EC166F20FFF50000B84A40 /* Draft.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Draft.storyboard; sourceTree = "<group>"; };
+		E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		19B7C2BB20FD467800E3D7F4 /* hackathonProject */ = {
 			isa = PBXGroup;
 			children = (
+				E1EC16722100F98000B84A40 /* View */,
 				E1EC166620FFDF6300B84A40 /* Helpers */,
 				E1EC166220FFDC1E00B84A40 /* Model */,
 				19B7C2D620FEA24000E3D7F4 /* User.swift */,
@@ -148,6 +151,14 @@
 				E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1EC16722100F98000B84A40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 				E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */,
 				E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */,
 				19DB5CB620FEB7AE007F64D2 /* CreateAccountViewController.swift in Sources */,
+				E1EC16762100F9C700B84A40 /* DraftTableViewCell.swift in Sources */,
 				19B7C2D720FEA24000E3D7F4 /* User.swift in Sources */,
 				19DB5CB820FFEDA6007F64D2 /* UserService.swift in Sources */,
 				19B7C2D120FD475F00E3D7F4 /* LoginViewController.swift in Sources */,

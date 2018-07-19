@@ -42,16 +42,33 @@ class DraftTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return draft.count
+//        return draft.count
+        return 3
     }
     
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DraftTableViewCell", for: indexPath) as! DraftTableViewCell
+        
+        // use indexPath.row to find the draft for this specific row
+        // using that draft you can load in data into your uielements (labels)
+        
+        cell.draftTitle.text = "Dear Amy"
+        cell.draftText.text = "Hi, youre so cool"
+        cell.draftDate.text = "July 19, 2018"
+        // same for draftText and draftDate
+        
+        return cell
+    }
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            draft.remove(at: indexPath.row)
+//            draft.remove(at: indexPath.row)
+            let draftToDelete = draft[indexPath.row]
+            CoreDataHelper.delete(draft: draftToDelete)
+
+            draft = CoreDataHelper.retrieveDrafts()
         }
     }
 
