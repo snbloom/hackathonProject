@@ -64,7 +64,11 @@ class DraftTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            draft.remove(at: indexPath.row)
+//            draft.remove(at: indexPath.row)
+            let draftToDelete = draft[indexPath.row]
+            CoreDataHelper.delete(draft: draftToDelete)
+
+            draft = CoreDataHelper.retrieveDrafts()
         }
     }
 
