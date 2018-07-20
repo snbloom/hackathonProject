@@ -75,6 +75,9 @@
                                         <state key="normal" title="Send">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="pressSendButton:" destination="BnW-Ct-XPN" eventType="touchUpInside" id="zDr-oA-hGt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -102,8 +105,6 @@
                         <outlet property="messageTextView" destination="lsG-6e-mRy" id="xx6-36-gdT"/>
                         <outlet property="newLetterToLabel" destination="mam-iQ-dNd" id="6TC-1g-bih"/>
                         <outlet property="saveButton" destination="CHi-Fh-Ppe" id="mie-Fh-IqE"/>
-                        <outlet property="sendButton" destination="8vI-Jr-pyP" id="n8L-qX-B56"/>
-                        <outlet property="sendButtonPressed" destination="8vI-Jr-pyP" id="Fb8-FA-Cgc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lRz-UR-4Qr" userLabel="First Responder" sceneMemberID="firstResponder"/>

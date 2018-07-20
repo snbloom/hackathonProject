@@ -16,7 +16,11 @@ class writeALetterViewController: UIViewController{
     
     @IBOutlet weak var deleteButton: UIButton!
     @IBOutlet weak var saveButton: UIButton!
-    @IBOutlet weak var sendButton: UIButton!
+    @IBAction func pressSendButton(_ sender: Any) {
+        MailingManager.sendMail(draft: Draft(),from: "Colleen",to: "Erick", callback: {
+            print("Letter sent to API")
+        })
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +38,6 @@ class writeALetterViewController: UIViewController{
     
     @IBAction func saveButtonPressed(_ sender: Any) {
     }
-    
-    @IBOutlet weak var sendButtonPressed: UIButton!
     
     
 }

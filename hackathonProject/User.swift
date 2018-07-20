@@ -13,40 +13,37 @@ class User{
     //MARK: - Properties
     
     let uid: String
-<<<<<<< HEAD
-    let username: String
-    let address: UserAddress?
-||||||| merged common ancestors
-    let username: String
-    
-=======
+//<<<<<<< HEAD
+//    let username: String
+//    let address: UserAddress?
+//||||||| merged common ancestors
+//    let username: String
+//
+//=======
     let firstName: String
     let lastName: String
     let street: String
     let city: String
     let state: String
     let zipcode: Int
-    
-    
-    
->>>>>>> new-letter
+//>>>>>>> new-letter
     //MARK: - Init
     
     init(uid: String, firstName: String, lastName: String, street: String, city: String, state: String, zipcode: Int){
         self.uid = uid
-<<<<<<< HEAD
-        self.username = username
-        self.address = nil
-||||||| merged common ancestors
-        self.username = username
-=======
+//<<<<<<< HEAD
+//        self.username = username
+//        self.address = nil
+//||||||| merged common ancestors
+//        self.username = username
+//=======
         self.firstName = firstName
         self.lastName = lastName
         self.street = street
         self.city = city
         self.state = state
         self.zipcode = zipcode
->>>>>>> new-letter
+//>>>>>>> new-letter
     }
     
     init?(snapshot: DataSnapshot){
@@ -59,7 +56,7 @@ class User{
         let zipcode = dict["zipcode"] as? Int
         
         else { return nil }
-        self.address  = nil
+//        self.address  = nil
         self.uid = snapshot.key
         self.firstName = firstName
         self.lastName = lastName

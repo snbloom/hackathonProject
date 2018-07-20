@@ -30,6 +30,7 @@
 		618BC11F21029356000E4ACB /* HTMLTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11821029356000E4ACB /* HTMLTemplate.swift */; };
 		618BC12021029356000E4ACB /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11921029356000E4ACB /* Address+CoreDataClass.swift */; };
 		618BC12221029412000E4ACB /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 618BC12121029412000E4ACB /* Untitled-2.png */; };
+		618BC127210296E6000E4ACB /* MailingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC126210296E6000E4ACB /* MailingManager.swift */; };
 		E1EC166520FFDC4500B84A40 /* Drafts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166320FFDC4500B84A40 /* Drafts.xcdatamodeld */; };
 		E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */; };
 		E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */; };
@@ -65,6 +66,7 @@
 		618BC11821029356000E4ACB /* HTMLTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLTemplate.swift; sourceTree = "<group>"; };
 		618BC11921029356000E4ACB /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
 		618BC12121029412000E4ACB /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
+		618BC126210296E6000E4ACB /* MailingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailingManager.swift; sourceTree = "<group>"; };
 		6E70AE9A2E2E6E699C4C62C5 /* Pods-hackathonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonProject/Pods-hackathonProject.release.xcconfig"; sourceTree = "<group>"; };
 		E1EC166420FFDC4500B84A40 /* Drafts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drafts.xcdatamodel; sourceTree = "<group>"; };
 		E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		618BC125210296E6000E4ACB /* MailingNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				618BC126210296E6000E4ACB /* MailingManager.swift */,
+			);
+			path = MailingNetwork;
+			sourceTree = "<group>";
+		};
 		9C3A9448CDEA2ABFCA473126 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 		E1EC166220FFDC1E00B84A40 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				618BC125210296E6000E4ACB /* MailingNetwork */,
 				618BC11921029356000E4ACB /* Address+CoreDataClass.swift */,
 				618BC11521029355000E4ACB /* Address+CoreDataProperties.swift */,
 				618BC11721029356000E4ACB /* Draft+CoreDataClass.swift */,
@@ -356,6 +367,7 @@
 				19B7C2BF20FD467800E3D7F4 /* ViewController.swift in Sources */,
 				19B7C2BD20FD467800E3D7F4 /* AppDelegate.swift in Sources */,
 				618BC11A21029356000E4ACB /* Recipient+CoreDataClass.swift in Sources */,
+				618BC127210296E6000E4ACB /* MailingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

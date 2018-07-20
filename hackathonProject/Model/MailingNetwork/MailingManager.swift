@@ -15,12 +15,12 @@ struct MailingManager {
         let link = "https://api.lob.com/v1/letters"
         let url = URL(string: link)!
         var request = URLRequest(url: url)
-        
+        request.httpMethod = "POST"
        let file = htmlMailBody(draft: draft, senderName: "Colleen")
         
         
         let body = ["from": userID, "to": recipient, "color": "false", "file": file]
-        
+                
         //turns body info into JSON data
         let bodyData = try! JSONSerialization.data(withJSONObject: body, options: .prettyPrinted)
         
