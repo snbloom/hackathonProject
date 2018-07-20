@@ -7,7 +7,7 @@
 		<key>FirebaseAuth.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>FirebaseCore.xcscheme</key>
 		<dict>
@@ -45,6 +45,11 @@
 			<integer>7</integer>
 		</dict>
 		<key>Pods-hackathonProject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>SwiftSoup.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
