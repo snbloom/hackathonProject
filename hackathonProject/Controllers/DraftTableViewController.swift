@@ -45,6 +45,7 @@ class DraftTableViewController: UITableViewController {
    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        
 //        return draft.count
         return 3
     }
@@ -54,11 +55,17 @@ class DraftTableViewController: UITableViewController {
         
         // use indexPath.row to find the draft for this specific row
         // using that draft you can load in data into your uielements (labels)
+         // same for draftText and draftDate
+        
+//        let drafts = draft[indexPath.row]
+//        cell.draftTitle.text = drafts.title
+//        cell.draftText.text = drafts.text
+//        cell.draftDate.text = drafts.modificationTime?.convertToString() ?? "unknown"
         
         cell.draftTitle.text = "Dear Amy"
         cell.draftText.text = "Hi, youre so cool"
         cell.draftDate.text = "July 19, 2018"
-        // same for draftText and draftDate
+       
         
         return cell
     }
