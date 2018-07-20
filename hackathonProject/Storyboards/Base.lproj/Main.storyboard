@@ -62,79 +62,8 @@
             </objects>
             <point key="canvasLocation" x="1036" y="298"/>
         </scene>
-<<<<<<< HEAD
-        <!--Template View Controller-->
-        <scene sceneID="XMD-C4-pku">
-            <objects>
-                <viewController storyboardIdentifier="htmlFormat" id="jrx-Bl-yXa" customClass="HTMLTemplateViewController" customModule="hackathonProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dhx-fE-mfH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kuq-OG-XiX">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">&lt;html&gt;
-
-&lt;head&gt;
-
-&lt;/head&gt;
-
-&lt;div style="width: 400px; background-color: #fff; padding: 15px;"&gt;
-
-&lt;p&gt;
-
-salutation &lt;/p&gt;
-
-&lt;p&gt;
-
-letterContent 
-
-&lt;/p&gt;
-
-&lt;div align="left"&gt;
-
-closing &lt;br/&gt;
-
-senderName
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Kuq-OG-XiX" firstAttribute="top" secondItem="aHY-06-8KS" secondAttribute="top" id="UXC-4B-Bn6"/>
-                            <constraint firstItem="aHY-06-8KS" firstAttribute="bottom" secondItem="Kuq-OG-XiX" secondAttribute="bottom" id="cuH-ZH-yFJ"/>
-                            <constraint firstItem="aHY-06-8KS" firstAttribute="trailing" secondItem="Kuq-OG-XiX" secondAttribute="trailing" id="uoH-7j-tRr"/>
-                            <constraint firstItem="Kuq-OG-XiX" firstAttribute="leading" secondItem="aHY-06-8KS" secondAttribute="leading" id="v9N-bB-z8v"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="aHY-06-8KS"/>
-                    </view>
-                    <connections>
-                        <outlet property="htmlTemplate" destination="Kuq-OG-XiX" id="a6Y-5r-2KW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K0c-I7-edY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2777" y="678"/>
-        </scene>
-        <!--writeALetterViewController-->
-        <scene sceneID="rIa-EC-pU7">
-||||||| merged common ancestors
-        <!--writeALetterViewController-->
-        <scene sceneID="rIa-EC-pU7">
-=======
         <!--NewLetter-->
         <scene sceneID="kUd-bI-Gda">
->>>>>>> new-letter
             <objects>
                 <viewControllerPlaceholder storyboardName="NewLetter" id="5xy-Jn-mQb" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7I-fU-JuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

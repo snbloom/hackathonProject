@@ -18,24 +18,23 @@
 		19B7C2D720FEA24000E3D7F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7C2D620FEA24000E3D7F4 /* User.swift */; };
 		19DB5CB620FEB7AE007F64D2 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */; };
 		19DB5CB820FFEDA6007F64D2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CB720FFEDA6007F64D2 /* UserService.swift */; };
-		19DB5CC221014F43007F64D2 /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB5CC121014F43007F64D2 /* Untitled-2.png */; };
 		19DB5CC7210250BD007F64D2 /* writeALetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */; };
 		19DB5CC92102544D007F64D2 /* NewLetter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DB5CC82102544D007F64D2 /* NewLetter.storyboard */; };
 		19DB5CCB210259DF007F64D2 /* SendeeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */; };
 		5DE513E8AFACDE37CE14999D /* Pods_hackathonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23957E5D10209F0AAEADAB92 /* Pods_hackathonProject.framework */; };
-		6115032B2101649B00F0CFC9 /* MailingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115032A2101649B00F0CFC9 /* MailingManager.swift */; };
-		6115033221016DC500F0CFC9 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115032C21016DC500F0CFC9 /* Address+CoreDataClass.swift */; };
-		6115033321016DC500F0CFC9 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115032D21016DC500F0CFC9 /* Address+CoreDataProperties.swift */; };
-		6115033421016DC500F0CFC9 /* Draft+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115032E21016DC500F0CFC9 /* Draft+CoreDataClass.swift */; };
-		6115033521016DC500F0CFC9 /* Draft+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115032F21016DC500F0CFC9 /* Draft+CoreDataProperties.swift */; };
-		6115033621016DC500F0CFC9 /* Recipient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115033021016DC500F0CFC9 /* Recipient+CoreDataClass.swift */; };
-		6115033721016DC500F0CFC9 /* Recipient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115033121016DC500F0CFC9 /* Recipient+CoreDataProperties.swift */; };
-		611503392102579500F0CFC9 /* HTMLTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611503382102579500F0CFC9 /* HTMLTemplateViewController.swift */; };
-		6115033B21026D5700F0CFC9 /* HTMLTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115033A21026D5700F0CFC9 /* HTMLTemplate.swift */; };
+		618BC11A21029356000E4ACB /* Recipient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC1132102934E000E4ACB /* Recipient+CoreDataClass.swift */; };
+		618BC11B21029356000E4ACB /* Draft+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11421029355000E4ACB /* Draft+CoreDataProperties.swift */; };
+		618BC11C21029356000E4ACB /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11521029355000E4ACB /* Address+CoreDataProperties.swift */; };
+		618BC11D21029356000E4ACB /* Recipient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11621029356000E4ACB /* Recipient+CoreDataProperties.swift */; };
+		618BC11E21029356000E4ACB /* Draft+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11721029356000E4ACB /* Draft+CoreDataClass.swift */; };
+		618BC11F21029356000E4ACB /* HTMLTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11821029356000E4ACB /* HTMLTemplate.swift */; };
+		618BC12021029356000E4ACB /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BC11921029356000E4ACB /* Address+CoreDataClass.swift */; };
+		618BC12221029412000E4ACB /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 618BC12121029412000E4ACB /* Untitled-2.png */; };
 		E1EC166520FFDC4500B84A40 /* Drafts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166320FFDC4500B84A40 /* Drafts.xcdatamodeld */; };
 		E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */; };
 		E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */; };
 		E1EC167020FFF50000B84A40 /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EC166F20FFF50000B84A40 /* Draft.storyboard */; };
+		E1EC16762100F9C700B84A40 /* DraftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,26 +52,25 @@
 		19B7C2D620FEA24000E3D7F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = hackathonProject/Controllers/CreateAccountViewController.swift; sourceTree = SOURCE_ROOT; };
 		19DB5CB720FFEDA6007F64D2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		19DB5CC121014F43007F64D2 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-2.png"; path = "../../../../Downloads/Untitled-2.png"; sourceTree = "<group>"; };
 		19DB5CC321014F49007F64D2 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
 		19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeALetterViewController.swift; sourceTree = "<group>"; };
 		19DB5CC82102544D007F64D2 /* NewLetter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewLetter.storyboard; sourceTree = "<group>"; };
 		19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendeeInfoViewController.swift; sourceTree = "<group>"; };
 		23957E5D10209F0AAEADAB92 /* Pods_hackathonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6115032A2101649B00F0CFC9 /* MailingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailingManager.swift; sourceTree = "<group>"; };
-		6115032C21016DC500F0CFC9 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6115032D21016DC500F0CFC9 /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6115032E21016DC500F0CFC9 /* Draft+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draft+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6115032F21016DC500F0CFC9 /* Draft+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draft+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6115033021016DC500F0CFC9 /* Recipient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipient+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6115033121016DC500F0CFC9 /* Recipient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipient+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		611503382102579500F0CFC9 /* HTMLTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLTemplateViewController.swift; sourceTree = "<group>"; };
-		6115033A21026D5700F0CFC9 /* HTMLTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLTemplate.swift; sourceTree = "<group>"; };
+		618BC1132102934E000E4ACB /* Recipient+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		618BC11421029355000E4ACB /* Draft+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Draft+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		618BC11521029355000E4ACB /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		618BC11621029356000E4ACB /* Recipient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		618BC11721029356000E4ACB /* Draft+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Draft+CoreDataClass.swift"; sourceTree = "<group>"; };
+		618BC11821029356000E4ACB /* HTMLTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLTemplate.swift; sourceTree = "<group>"; };
+		618BC11921029356000E4ACB /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		618BC12121029412000E4ACB /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
 		6E70AE9A2E2E6E699C4C62C5 /* Pods-hackathonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonProject/Pods-hackathonProject.release.xcconfig"; sourceTree = "<group>"; };
 		E1EC166420FFDC4500B84A40 /* Drafts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drafts.xcdatamodel; sourceTree = "<group>"; };
 		E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTableViewController.swift; sourceTree = "<group>"; };
 		E1EC166F20FFF50000B84A40 /* Draft.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Draft.storyboard; sourceTree = "<group>"; };
+		E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,7 @@
 		19B7C2BB20FD467800E3D7F4 /* hackathonProject */ = {
 			isa = PBXGroup;
 			children = (
-				611503292101647C00F0CFC9 /* MailingNetwork */,
+				E1EC16722100F98000B84A40 /* View */,
 				E1EC166620FFDF6300B84A40 /* Helpers */,
 				E1EC166220FFDC1E00B84A40 /* Model */,
 				19B7C2D620FEA24000E3D7F4 /* User.swift */,
@@ -139,28 +137,15 @@
 		19B7C2D520FE9AD700E3D7F4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				19DB5CC121014F43007F64D2 /* Untitled-2.png */,
+				618BC12121029412000E4ACB /* Untitled-2.png */,
 				19B7C2BE20FD467800E3D7F4 /* ViewController.swift */,
 				19B7C2D020FD475F00E3D7F4 /* LoginViewController.swift */,
 				E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */,
 				19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */,
 				19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */,
-<<<<<<< HEAD
-				611503382102579500F0CFC9 /* HTMLTemplateViewController.swift */,
-||||||| merged common ancestors
-=======
 				19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */,
->>>>>>> new-letter
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		611503292101647C00F0CFC9 /* MailingNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				6115032A2101649B00F0CFC9 /* MailingManager.swift */,
-			);
-			path = MailingNetwork;
 			sourceTree = "<group>";
 		};
 		9C3A9448CDEA2ABFCA473126 /* Frameworks */ = {
@@ -183,14 +168,14 @@
 		E1EC166220FFDC1E00B84A40 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6115032C21016DC500F0CFC9 /* Address+CoreDataClass.swift */,
-				6115032D21016DC500F0CFC9 /* Address+CoreDataProperties.swift */,
-				6115032E21016DC500F0CFC9 /* Draft+CoreDataClass.swift */,
-				6115032F21016DC500F0CFC9 /* Draft+CoreDataProperties.swift */,
-				6115033021016DC500F0CFC9 /* Recipient+CoreDataClass.swift */,
-				6115033121016DC500F0CFC9 /* Recipient+CoreDataProperties.swift */,
+				618BC11921029356000E4ACB /* Address+CoreDataClass.swift */,
+				618BC11521029355000E4ACB /* Address+CoreDataProperties.swift */,
+				618BC11721029356000E4ACB /* Draft+CoreDataClass.swift */,
+				618BC11421029355000E4ACB /* Draft+CoreDataProperties.swift */,
+				618BC11821029356000E4ACB /* HTMLTemplate.swift */,
+				618BC1132102934E000E4ACB /* Recipient+CoreDataClass.swift */,
+				618BC11621029356000E4ACB /* Recipient+CoreDataProperties.swift */,
 				E1EC166320FFDC4500B84A40 /* Drafts.xcdatamodeld */,
-				6115033A21026D5700F0CFC9 /* HTMLTemplate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +186,14 @@
 				E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1EC16722100F98000B84A40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1EC16752100F9C700B84A40 /* DraftTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,12 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				19B7C2CF20FD46F900E3D7F4 /* Login.storyboard in Resources */,
+				618BC12221029412000E4ACB /* Untitled-2.png in Resources */,
 				19B7C2C720FD467C00E3D7F4 /* LaunchScreen.storyboard in Resources */,
 				E1EC167020FFF50000B84A40 /* Draft.storyboard in Resources */,
 				19B7C2D320FE973B00E3D7F4 /* GoogleService-Info.plist in Resources */,
 				19B7C2C420FD467C00E3D7F4 /* Assets.xcassets in Resources */,
 				19DB5CC92102544D007F64D2 /* NewLetter.storyboard in Resources */,
-				19DB5CC221014F43007F64D2 /* Untitled-2.png in Resources */,
 				19B7C2C220FD467800E3D7F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +279,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-hackathonProject/Pods-hackathonProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -294,7 +286,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -348,28 +339,23 @@
 			files = (
 				19DB5CC7210250BD007F64D2 /* writeALetterViewController.swift in Sources */,
 				E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */,
+				618BC11F21029356000E4ACB /* HTMLTemplate.swift in Sources */,
+				618BC11C21029356000E4ACB /* Address+CoreDataProperties.swift in Sources */,
 				E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */,
-				6115033B21026D5700F0CFC9 /* HTMLTemplate.swift in Sources */,
 				19DB5CB620FEB7AE007F64D2 /* CreateAccountViewController.swift in Sources */,
+				E1EC16762100F9C700B84A40 /* DraftTableViewCell.swift in Sources */,
+				618BC12021029356000E4ACB /* Address+CoreDataClass.swift in Sources */,
 				19B7C2D720FEA24000E3D7F4 /* User.swift in Sources */,
-				611503392102579500F0CFC9 /* HTMLTemplateViewController.swift in Sources */,
+				618BC11D21029356000E4ACB /* Recipient+CoreDataProperties.swift in Sources */,
 				19DB5CB820FFEDA6007F64D2 /* UserService.swift in Sources */,
-<<<<<<< HEAD
-				6115033621016DC500F0CFC9 /* Recipient+CoreDataClass.swift in Sources */,
-				6115033221016DC500F0CFC9 /* Address+CoreDataClass.swift in Sources */,
-				6115033721016DC500F0CFC9 /* Recipient+CoreDataProperties.swift in Sources */,
-||||||| merged common ancestors
-=======
+				618BC11E21029356000E4ACB /* Draft+CoreDataClass.swift in Sources */,
+				618BC11B21029356000E4ACB /* Draft+CoreDataProperties.swift in Sources */,
 				19DB5CCB210259DF007F64D2 /* SendeeInfoViewController.swift in Sources */,
->>>>>>> new-letter
 				19B7C2D120FD475F00E3D7F4 /* LoginViewController.swift in Sources */,
-				6115033521016DC500F0CFC9 /* Draft+CoreDataProperties.swift in Sources */,
 				E1EC166520FFDC4500B84A40 /* Drafts.xcdatamodeld in Sources */,
-				6115033321016DC500F0CFC9 /* Address+CoreDataProperties.swift in Sources */,
 				19B7C2BF20FD467800E3D7F4 /* ViewController.swift in Sources */,
 				19B7C2BD20FD467800E3D7F4 /* AppDelegate.swift in Sources */,
-				6115033421016DC500F0CFC9 /* Draft+CoreDataClass.swift in Sources */,
-				6115032B2101649B00F0CFC9 /* MailingManager.swift in Sources */,
+				618BC11A21029356000E4ACB /* Recipient+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
