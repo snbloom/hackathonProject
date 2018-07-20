@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "draft", sender: nil)
     }
     @IBAction func startButtonTapped(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "writeALetter", sender: nil)
+        self.performSegue(withIdentifier: "toNewLetter", sender: nil)
     }
     
     override func didReceiveMemoryWarning() {

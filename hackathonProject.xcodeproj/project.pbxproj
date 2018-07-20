@@ -18,6 +18,10 @@
 		19B7C2D720FEA24000E3D7F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7C2D620FEA24000E3D7F4 /* User.swift */; };
 		19DB5CB620FEB7AE007F64D2 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */; };
 		19DB5CB820FFEDA6007F64D2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CB720FFEDA6007F64D2 /* UserService.swift */; };
+		19DB5CC221014F43007F64D2 /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB5CC121014F43007F64D2 /* Untitled-2.png */; };
+		19DB5CC7210250BD007F64D2 /* writeALetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */; };
+		19DB5CC92102544D007F64D2 /* NewLetter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DB5CC82102544D007F64D2 /* NewLetter.storyboard */; };
+		19DB5CCB210259DF007F64D2 /* SendeeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */; };
 		5DE513E8AFACDE37CE14999D /* Pods_hackathonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23957E5D10209F0AAEADAB92 /* Pods_hackathonProject.framework */; };
 		E1EC166520FFDC4500B84A40 /* Drafts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166320FFDC4500B84A40 /* Drafts.xcdatamodeld */; };
 		E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC166720FFDF7A00B84A40 /* CoreDataHelper.swift */; };
@@ -41,6 +45,11 @@
 		19B7C2D620FEA24000E3D7F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = hackathonProject/Controllers/CreateAccountViewController.swift; sourceTree = SOURCE_ROOT; };
 		19DB5CB720FFEDA6007F64D2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		19DB5CC121014F43007F64D2 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-2.png"; path = "../../../../Downloads/Untitled-2.png"; sourceTree = "<group>"; };
+		19DB5CC321014F49007F64D2 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
+		19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeALetterViewController.swift; sourceTree = "<group>"; };
+		19DB5CC82102544D007F64D2 /* NewLetter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewLetter.storyboard; sourceTree = "<group>"; };
+		19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendeeInfoViewController.swift; sourceTree = "<group>"; };
 		23957E5D10209F0AAEADAB92 /* Pods_hackathonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E70AE9A2E2E6E699C4C62C5 /* Pods-hackathonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonProject/Pods-hackathonProject.release.xcconfig"; sourceTree = "<group>"; };
 		E1EC166420FFDC4500B84A40 /* Drafts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drafts.xcdatamodel; sourceTree = "<group>"; };
@@ -94,6 +103,7 @@
 				19B7C2C320FD467C00E3D7F4 /* Assets.xcassets */,
 				19B7C2C820FD467C00E3D7F4 /* Info.plist */,
 				19DB5CB720FFEDA6007F64D2 /* UserService.swift */,
+				19DB5CC321014F49007F64D2 /* Untitled-2.png */,
 			);
 			path = hackathonProject;
 			sourceTree = "<group>";
@@ -105,6 +115,7 @@
 				19B7C2C020FD467800E3D7F4 /* Main.storyboard */,
 				19B7C2CE20FD46F900E3D7F4 /* Login.storyboard */,
 				19B7C2C520FD467C00E3D7F4 /* LaunchScreen.storyboard */,
+				19DB5CC82102544D007F64D2 /* NewLetter.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -112,10 +123,13 @@
 		19B7C2D520FE9AD700E3D7F4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				19DB5CC121014F43007F64D2 /* Untitled-2.png */,
 				19B7C2BE20FD467800E3D7F4 /* ViewController.swift */,
 				19B7C2D020FD475F00E3D7F4 /* LoginViewController.swift */,
 				E1EC166D20FFE41800B84A40 /* DraftTableViewController.swift */,
+				19DB5CC6210250BD007F64D2 /* writeALetterViewController.swift */,
 				19DB5CB520FEB7AE007F64D2 /* CreateAccountViewController.swift */,
+				19DB5CCA210259DF007F64D2 /* SendeeInfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -226,6 +240,8 @@
 				E1EC167020FFF50000B84A40 /* Draft.storyboard in Resources */,
 				19B7C2D320FE973B00E3D7F4 /* GoogleService-Info.plist in Resources */,
 				19B7C2C420FD467C00E3D7F4 /* Assets.xcassets in Resources */,
+				19DB5CC92102544D007F64D2 /* NewLetter.storyboard in Resources */,
+				19DB5CC221014F43007F64D2 /* Untitled-2.png in Resources */,
 				19B7C2C220FD467800E3D7F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,12 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DB5CC7210250BD007F64D2 /* writeALetterViewController.swift in Sources */,
 				E1EC166820FFDF7A00B84A40 /* CoreDataHelper.swift in Sources */,
 				E1EC166E20FFE41800B84A40 /* DraftTableViewController.swift in Sources */,
 				19DB5CB620FEB7AE007F64D2 /* CreateAccountViewController.swift in Sources */,
 				E1EC16762100F9C700B84A40 /* DraftTableViewCell.swift in Sources */,
 				19B7C2D720FEA24000E3D7F4 /* User.swift in Sources */,
 				19DB5CB820FFEDA6007F64D2 /* UserService.swift in Sources */,
+				19DB5CCB210259DF007F64D2 /* SendeeInfoViewController.swift in Sources */,
 				19B7C2D120FD475F00E3D7F4 /* LoginViewController.swift in Sources */,
 				E1EC166520FFDC4500B84A40 /* Drafts.xcdatamodeld in Sources */,
 				19B7C2BF20FD467800E3D7F4 /* ViewController.swift in Sources */,

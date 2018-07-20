@@ -27,13 +27,22 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvp-hN-2j0">
-                                <rect key="frame" x="141" y="178" width="92" height="30"/>
+                                <rect key="frame" x="75" y="165" width="224" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Start A Letter"/>
                                 <connections>
                                     <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CE4-Pg-yhv"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucy-Di-fSt">
+                                <rect key="frame" x="0.0" y="400" width="315" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="b3B-Jm-9lQ">
+                                <rect key="frame" x="87" y="108" width="315" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,32 +54,21 @@
                     <connections>
                         <outlet property="draftALetter" destination="LWz-sf-0Nj" id="a2c-9m-6ek"/>
                         <outlet property="startALetter" destination="LWz-sf-0Nj" id="qjr-kn-k8P"/>
-                        <segue destination="n0y-0h-76o" kind="show" identifier="writeALetter" id="mcI-iz-ni1"/>
                         <segue destination="HgS-ch-a0z" kind="show" identifier="draft" id="5Xl-64-yul"/>
+                        <segue destination="5xy-Jn-mQb" kind="show" identifier="toNewLetter" id="5lW-PH-eez"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1040.8" y="298.2008995502249"/>
+            <point key="canvasLocation" x="1036" y="298"/>
         </scene>
-        <!--writeALetterViewController-->
-        <scene sceneID="rIa-EC-pU7">
+        <!--NewLetter-->
+        <scene sceneID="kUd-bI-Gda">
             <objects>
-                <viewController id="n0y-0h-76o" userLabel="writeALetterViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P7u-dt-etl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="7cX-eQ-dV7"/>
-                    </view>
-                    <connections>
-                        <segue destination="XRy-8Q-q6k" kind="unwind" identifier="writeToMain" unwindAction="unwindWithSegue:" id="IWa-VQ-7ok"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QQi-ae-wl8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="XRy-8Q-q6k" userLabel="Exit" sceneMemberID="exit"/>
+                <viewControllerPlaceholder storyboardName="NewLetter" id="5xy-Jn-mQb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7I-fU-JuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1904.8" y="677.81109445277366"/>
+            <point key="canvasLocation" x="1962" y="532"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Fg-7V-dh3">
@@ -99,4 +97,7 @@
             <point key="canvasLocation" x="1962" y="-54"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Untitled-2.png" width="858" height="621"/>
+    </resources>
 </document>
