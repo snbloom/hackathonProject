@@ -26,9 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         
-        MailingManager.sendMail(draft: Draft(),from: "adr_42c243b007cec664",to: "adr_5c1b854f0b4ba4e3", callback: {
-            print("Letter sent to API")
-        })
+//        MailingManager.sendMail(draft: Draft(),from: "adr_42c243b007cec664",to: "adr_5c1b854f0b4ba4e3", callback: {
+//            print("Letter sent to API")
+//        })
         
         
         

@@ -22,14 +22,14 @@ struct MailingManager {
         let body = ["from": userID, "to": recipient, "color": "false", "file": file]
                 
         //turns body info into JSON data
-        let bodyData = try! JSONSerialization.data(withJSONObject: body, options: .prettyPrinted)
-        
+        let bodyData = try? JSONSerialization.data(withJSONObject: body, options: .sortedKeys)
+
         //add the body into the request
         request.httpBody = bodyData
         
         //add authorization into header
         request.setValue("Basic dGVzdF82M2ZmMDgwNWNjZTFjZDI5OTg5N2ZmMzZkYzJiYjU0NjJkNjo=", forHTTPHeaderField: "Authorization")
-        
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
         //create a url session
         let session = URLSession.shared
         
@@ -38,7 +38,8 @@ struct MailingManager {
         guard let data = data else {
             return
         }
-        let dataID = try! JSONDecoder().decode(DataID.self, from: data)
+        let idModel = try? JSONDecoder().decode(IdModel.self, from: data)
+        dump(idModel)
         callback()
         }
     
@@ -58,17 +59,19 @@ struct MailingManager {
         var request = URLRequest(url: url)
         
         //define body using by filling in models
-        let body = ["name":name, "address_line1":address.street, "address_city":address.city, "address_state":address.state, "address_zip": address.zipCode]
+        let body = ["name":name,  "address_city":address.city, "address_state":address.state, "address_line1":address.street, "address_zip": address.zipCode]
         
         //turns body info into JSON data
         let bodyData = try! JSONSerialization.data(withJSONObject: body, options: .prettyPrinted)
+        
+        request.httpMethod = "POST"
         
         //add the body into the request
         request.httpBody = bodyData
         
         // add authorization into header
         request.setValue("Basic dGVzdF82M2ZmMDgwNWNjZTFjZDI5OTg5N2ZmMzZkYzJiYjU0NjJkNjo=", forHTTPHeaderField: "Authorization")
-        
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
         //create a url session
         let session = URLSession.shared
         
@@ -78,8 +81,9 @@ struct MailingManager {
             guard let data = data else {
                 return
             }
-            let dataID = try! JSONDecoder().decode(DataID.self, from: data)
-            callback((dataID.data.first?.id)!)
+            guard let idModel = try? JSONDecoder().decode(IdModel.self, from: data) else { return assertionFailure("Failed to get recipient mail ID")}
+
+            callback(idModel.id)
         }
         task.resume()
     }
@@ -105,9 +109,11 @@ static func getUserMailID(name: String, address: UserAddress, callback:@escaping
     //add the body into the request
     request.httpBody = bodyData
     
+     request.httpMethod = "POST"
+    
     // add authorization into header
     request.setValue("Basic dGVzdF82M2ZmMDgwNWNjZTFjZDI5OTg5N2ZmMzZkYzJiYjU0NjJkNjo=", forHTTPHeaderField: "Authorization")
-    
+    request.setValue("application/json", forHTTPHeaderField: "content-type")
     //create a url session
     let session = URLSession.shared
     
@@ -117,8 +123,9 @@ static func getUserMailID(name: String, address: UserAddress, callback:@escaping
         guard let data = data else {
             return
         }
-        let dataID = try! JSONDecoder().decode(DataID.self, from: data)
-        callback((dataID.data.first?.id)!)
+        guard let idModel = try? JSONDecoder().decode(IdModel.self, from: data) else { return assertionFailure("Failed to get user mail ID")}
+    
+        callback(idModel.id)
     }
     task.resume()
 }

@@ -31,10 +31,10 @@ class LoginViewController: UIViewController {
         
         let address  = CoreDataHelper.newAddress()
         
-        address.street = "1368 Natomo St."
-        address.city = "San Francisco"
-        address.state = "CA"
-        address.zipCode = "94103"
+        address.street = "383 berryman Pl"
+        address.city = "Orange"
+        address.state = "NJ"
+        address.zipCode = "07050"
         
         let name = ("\(draft.recipient?.firstName ?? "No Name") \(draft.recipient?.lastName ?? "No Name")")
         
